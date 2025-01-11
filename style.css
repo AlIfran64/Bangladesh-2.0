@@ -140,6 +140,7 @@ main .section-2-sub-title {
   font-weight: 400;
   line-height: 24px;
   margin-bottom: 32px;
+  text-align: justify;
 }
 main .section-2-img {
   height: 64px;
@@ -231,6 +232,7 @@ main .sec-3-para-1 {
   line-height: 24px;
   background: transparent;
   color: rgba(14, 14, 14, 0.8);
+  text-align: justify;
 }
 main .sec-3-para-2 {
   font-size: 20px;
@@ -264,4 +266,146 @@ main .sec-3-main-div {
   padding: 48px 24px;
 }
 
+/* Your opinion matters */
+/* Section - 4 */
+main .sec-4-main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 80px;
+}
+main .sec-4-main-div {
+  background-color: white;
+  width: 1400px;
+  padding: 32px 32px 32px 36px;
+  border-radius: 16px;
+  margin-top: 24px;
+}
+main .sec-4-para-1 {
+  font-size: 40px;
+  font-weight: 700;
+  background: transparent;
+}
+table,
+tr,
+td {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-collapse: collapse;
+}
+table {
+  width: 1400px;
+}
+.sec-4-th-1 {
+  background-color: #c6e4d6;
+  font-size: 20px;
+  font-weight: 600;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  padding: 24px;
+}
+.th-align {
+  text-align: start;
+}
+.th-right-border {
+  border-right: none;
+}
+.th-left-border {
+  border-left: none;
+}
+.sec-4-tbody-td {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 24px;
+  background-color: white;
+}
+.sec-4-tbody-select {
+  text-align: center;
+  background-color: white;
+}
+.sec-4-select-design {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 14px;
+  border-radius: 4px;
+  border: 1px solid #0e0e0e;
+  background: #c6e4d6;
+}
+
+/* Recent News */
+/* Section - 5 */
+.sec-5-main {
+  display: flex;
+  justify-content: center;
+}
+.sec-5-main-div {
+  width: 1460px;
+  margin-top: 80px;
+}
+.sec-5-title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.sec-5-sub-title {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 32px;
+  text-align: justify;
+}
+.sec-5-img-1 {
+  height: 306px;
+  width: 408px;
+  border-radius: 24px;
+}
+.sec-5-card-main-div {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 48px;
+  border-radius: 24px;
+}
+.sec-5-card-right-div {
+  background-color: white;
+}
+.sec-5-card-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  background: transparent;
+}
+.sec-5-img-2 {
+  height: 40px;
+  width: 134px;
+  margin-bottom: 12px;
+  background: transparent;
+}
+.sec-5-card-date-time {
+  display: flex;
+  align-content: center;
+  background-color: white;
+  gap: 10px;
+}
+.sec-5-card-date {
+  background: transparent;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+}
+.sec-5-card-time {
+  background: transparent;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+}
+.sec-5-card-sub-title {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  background: transparent;
+  margin-top: 12px;
+  margin-bottom: 32px;
+}
 /* Main Style end */
