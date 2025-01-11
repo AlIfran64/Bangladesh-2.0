@@ -90,6 +90,9 @@ main .section-1-title {
   height: 64px;
   width: 64px;
 }
+.sec-1-img {
+  background-color: white;
+}
 main .sec-1-card-1-title {
   color: rgba(14, 14, 14, 0.8);
   font-size: 28px;
@@ -141,18 +144,21 @@ main .section-2-sub-title {
 main .section-2-img {
   height: 64px;
   width: 64px;
+  background: transparent;
 }
 main .sec-2-card-1-title {
   color: rgba(14, 14, 14, 0.8);
   font-size: 20px;
   font-weight: 700;
   margin-top: 24px;
+  background: transparent;
 }
 main .sec-2-card-1-sub-title {
   color: rgba(14, 14, 14, 0.7);
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+  background: transparent;
 }
 main .sec-2-card-1-btn {
   color: #fff;
@@ -164,12 +170,46 @@ main .sec-2-card-1-btn {
   padding: 11px 20px;
   margin-top: 24px;
 }
+main .sec-2-card-2-btn {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  background-color: #09a15c;
+  padding: 11px 20px;
+  margin-top: 24px;
+}
+main .sec-2-card-3-btn {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  background-color: #ffc239;
+  padding: 11px 20px;
+  margin-top: 24px;
+}
 main .sec-2-card-1 {
   width: 415px;
   background-color: rgba(84, 144, 245, 0.2);
   padding: 32px;
   border-radius: 16px;
   border: 0px solid #5490f5;
+}
+main .sec-2-card-2 {
+  width: 415px;
+  background-color: #c6e4d6;
+  padding: 32px;
+  border-radius: 16px;
+  border: 0px solid #09a15c;
+}
+main .sec-2-card-3 {
+  width: 415px;
+  background-color: #f7ebcf;
+  padding: 32px;
+  border-radius: 16px;
+  border: 0px solid #ffc239;
 }
 main .section-2-main {
   display: flex;
@@ -181,4 +221,47 @@ main .sec-2-card-main {
   align-items: center;
   gap: 24px;
 }
+
+/*Dr. Younus Qoute*/
+/*Section - 3 */
+
+main .sec-3-para-1 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  background: transparent;
+  color: rgba(14, 14, 14, 0.8);
+}
+main .sec-3-para-2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  background: transparent;
+  margin-top: 12px;
+}
+main .sec-3-para-3 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  background: transparent;
+  color: rgba(14, 14, 14, 0.6);
+}
+
+main .sec-3-main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 32px;
+}
+main .sec-3-main-div {
+  background-image: url("./assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: 1.8% 15%;
+  width: 1440px;
+  background-color: white;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  padding: 48px 24px;
+}
+
 /* Main Style end */
